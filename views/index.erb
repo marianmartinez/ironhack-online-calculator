@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8" />
+    <title>Online Calculator</title>
+  	<link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+  	<h1>ONLINE CALCULATOR</h1>
+    <H2>ADD</H2>
+    <form action="/add" method="POST">
+      <input type="text" name="add1"/><span> + </span>
+      <input type="text" name="add2"/>
+      <input type="submit">
+    </form>
+
+    <h2>SUBSTRACT</h2>
+    <form action="/substract" method="POST">
+      <input type="text" name="substract1"/><span> - </span>
+      <input type="text" name="substract2"/>
+      <input type="submit">
+    </form>
+
+    <h2>MULTIPLY</h2>
+    <form action="/multiply" method="POST">
+      <input type="text" name="multiply1"/><span> * </span>
+      <input type="text" name="multiply2"/>
+      <input type="submit">
+    </form>
+
+    <h2>DIVIDE</h2>
+    <form action="/divide" method="POST">
+      <input type="text" name="divide1"/><span> / </span>
+      <input type="text" name="divide2"/>
+      <input type="submit">
+    </form>
+    <br>
+    <a href="/counting">GO TO COUNTING</a>
+  </body>
+</html>
